@@ -1,0 +1,6 @@
+<p>Descrição: {{ tarefa.desc }}</p>
+<!-- if in line para verificação de nulo -->
+<p>Responsável: {{ tarefa.responsavel != null ? tarefa.responsavel.nome : '' }}</p>
+
+<!-- Simplificação utlizando o operador Elvis ? -->
+<p>Responsável: {{ tarefa.responsavel?.usuario?.nome }}</p>

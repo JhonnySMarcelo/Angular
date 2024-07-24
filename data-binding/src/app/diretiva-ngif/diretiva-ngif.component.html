@@ -1,0 +1,28 @@
+<h5>Diretiva *ngIf (recomendado em árvore de elementos grandes)</h5>
+
+<div *ngIf="cursos.length > 0">
+    Lista de cursos.
+</div>
+<div *ngIf="cursos.length == 0">
+    Não existem cursos.
+</div>
+
+<div *ngIf="mostarCursos">
+    Lista de cursos.
+</div>
+<div *ngIf="!mostarCursos">
+    Não existem cursos.
+</div>
+
+<br><br>
+
+<button (click)="onMostrarCursos()">Mostrar ou ocultar cursos</button>
+
+<h5>Hidden como alternativa (recomendado em árvore de elementos pequenas)</h5>
+
+<div [hidden]="!mostarCursos">
+    Lista de cursos.
+</div>
+<div [hidden]="mostarCursos">
+    Não existem cursos.
+</div>

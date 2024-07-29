@@ -7,6 +7,7 @@ import { DiretivaNgifComponent } from './diretiva-ngif/diretiva-ngif.component';
 import { DiretivaNgswitchComponent } from "./diretiva-ngswitch/diretiva-ngswitch.component";
 import { OperadorElvisComponent } from "./operador-elvis/operador-elvis.component";
 import { DiretiveNgforComponent } from "./diretive-ngfor/diretive-ngfor.component";
+import { DiretivaNgclassComponent } from "./diretiva-ngclass/diretiva-ngclass.component";
 
 @Component({
   selector: 'app-root',
@@ -15,7 +16,8 @@ import { DiretiveNgforComponent } from "./diretive-ngfor/diretive-ngfor.componen
     RouterOutlet, DataBindingComponent, CicloComponent, NgIf, DiretivaNgifComponent,
     DiretivaNgswitchComponent,
     OperadorElvisComponent,
-    DiretiveNgforComponent
+    DiretiveNgforComponent,
+    DiretivaNgclassComponent
 ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'

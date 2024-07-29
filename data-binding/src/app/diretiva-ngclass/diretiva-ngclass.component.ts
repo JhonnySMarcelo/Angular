@@ -1,9 +1,10 @@
+import { NgClass } from '@angular/common';
 import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-diretiva-ngclass',
   standalone: true,
-  imports: [],
+  imports: [NgClass],
   templateUrl: './diretiva-ngclass.component.html',
   styleUrl: './diretiva-ngclass.component.css'
 })

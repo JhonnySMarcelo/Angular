@@ -8,6 +8,7 @@ import { DiretivaNgswitchComponent } from "./diretiva-ngswitch/diretiva-ngswitch
 import { OperadorElvisComponent } from "./operador-elvis/operador-elvis.component";
 import { DiretiveNgforComponent } from "./diretive-ngfor/diretive-ngfor.component";
 import { DiretivaNgclassComponent } from "./diretiva-ngclass/diretiva-ngclass.component";
+import { DiretivaNgstyleComponent } from "./diretiva-ngstyle/diretiva-ngstyle.component";
 
 @Component({
   selector: 'app-root',
@@ -17,7 +18,8 @@ import { DiretivaNgclassComponent } from "./diretiva-ngclass/diretiva-ngclass.co
     DiretivaNgswitchComponent,
     OperadorElvisComponent,
     DiretiveNgforComponent,
-    DiretivaNgclassComponent
+    DiretivaNgclassComponent,
+    DiretivaNgstyleComponent
 ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'

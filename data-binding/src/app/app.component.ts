@@ -10,6 +10,7 @@ import { DiretiveNgforComponent } from "./diretive-ngfor/diretive-ngfor.componen
 import { DiretivaNgclassComponent } from "./diretiva-ngclass/diretiva-ngclass.component";
 import { DiretivaNgstyleComponent } from "./diretiva-ngstyle/diretiva-ngstyle.component";
 import { ExemploNgContentComponent } from "./exemplo-ng-content/exemplo-ng-content.component";
+import { DiretivasCustomizadasComponent } from "./diretivas-customizadas/diretivas-customizadas.component";
 
 @Component({
   selector: 'app-root',
@@ -21,7 +22,8 @@ import { ExemploNgContentComponent } from "./exemplo-ng-content/exemplo-ng-conte
     DiretiveNgforComponent,
     DiretivaNgclassComponent,
     DiretivaNgstyleComponent,
-    ExemploNgContentComponent
+    ExemploNgContentComponent,
+    DiretivasCustomizadasComponent
 ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'

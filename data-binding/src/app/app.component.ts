@@ -9,6 +9,7 @@ import { OperadorElvisComponent } from "./operador-elvis/operador-elvis.componen
 import { DiretiveNgforComponent } from "./diretive-ngfor/diretive-ngfor.component";
 import { DiretivaNgclassComponent } from "./diretiva-ngclass/diretiva-ngclass.component";
 import { DiretivaNgstyleComponent } from "./diretiva-ngstyle/diretiva-ngstyle.component";
+import { ExemploNgContentComponent } from "./exemplo-ng-content/exemplo-ng-content.component";
 
 @Component({
   selector: 'app-root',
@@ -19,7 +20,8 @@ import { DiretivaNgstyleComponent } from "./diretiva-ngstyle/diretiva-ngstyle.co
     OperadorElvisComponent,
     DiretiveNgforComponent,
     DiretivaNgclassComponent,
-    DiretivaNgstyleComponent
+    DiretivaNgstyleComponent,
+    ExemploNgContentComponent
 ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'

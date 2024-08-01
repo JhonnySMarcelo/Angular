@@ -7,10 +7,10 @@
     Não existem cursos.
 </div>
 
-<div *ngIf="mostarCursos">
+<div *ngIf="mostrarCursos">
     Lista de cursos.
 </div>
-<div *ngIf="!mostarCursos">
+<div *ngIf="!mostrarCursos">
     Não existem cursos.
 </div>
 
@@ -22,9 +22,9 @@
 
 <h5>Hidden como alternativa (recomendado em árvore de elementos pequenas)</h5>
 
-<div [hidden]="!mostarCursos">
+<div [hidden]="!mostrarCursos">
     Lista de cursos.
 </div>
-<div [hidden]="mostarCursos">
+<div [hidden]="mostrarCursos">
     Não existem cursos.
 </div>

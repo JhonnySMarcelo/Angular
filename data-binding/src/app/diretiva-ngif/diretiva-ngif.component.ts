@@ -10,9 +10,9 @@ import { Component } from '@angular/core';
 })
 export class DiretivaNgifComponent {
   cursos: string[] = ['Angular'];
-  mostarCursos: boolean = false;
+  mostrarCursos: boolean = false;
 
   onMostrarCursos(){
-    this.mostarCursos = !this.mostarCursos;
+    this.mostrarCursos = !this.mostrarCursos;
   }
 }

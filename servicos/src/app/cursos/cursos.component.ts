@@ -7,7 +7,6 @@ import { NgFor } from '@angular/common';
   selector: 'app-cursos',
   standalone: true,
   imports: [NgFor],
-  providers: [CursosService],
   templateUrl: './cursos.component.html',
   styleUrl: './cursos.component.css'
 })

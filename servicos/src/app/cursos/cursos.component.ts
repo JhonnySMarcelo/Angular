@@ -14,13 +14,11 @@ import { NgFor } from '@angular/common';
 export class CursosComponent implements OnInit{
 
   cursos: string[] = [];
-  cursosService: CursosService;
-
-  constructor(_cursosService: CursosService){
-    this.cursosService = _cursosService;
+  
+  constructor(private _cursosService: CursosService){
   }
 
   ngOnInit(): void {
-    this.cursos = this.cursosService.getCursos();
+    this.cursos = this._cursosService.getCursos();
   }
 }

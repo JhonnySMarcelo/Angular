@@ -7,6 +7,7 @@ import { NgFor } from '@angular/common';
   selector: 'app-cursos',
   standalone: true,
   imports: [NgFor],
+  providers: [CursosService],
   templateUrl: './cursos.component.html',
   styleUrl: './cursos.component.css'
 })
@@ -19,5 +20,9 @@ export class CursosComponent implements OnInit{
 
   ngOnInit(): void {
     this.cursos = this._cursosService.getCursos();
+
+    CursosService.criouNovoCurso.subscribe(
+      novoCurso => this.cursos.push(novoCurso)
+    );
   }
 }

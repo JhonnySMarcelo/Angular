@@ -1,0 +1,13 @@
+<h5>Exemplo de pipes</h5>
+
+<!-- O nome pipe vem do caracter | que se chama pipe em inglês -->
+
+<!-- pipes aninhados no título, a orderm a ser aplicada do pipes é da esqueda para a direita -->
+<p>Título: {{ livro.titulo | lowercase | uppercase   }} </p>
+<p>Estrelas: {{ livro.rating | number:'2.1-2'}} </p>
+<p>Páginas: {{ livro.numeroPaginas | number}} </p>
+<p>Preço: {{ livro.preco | currency:'BRL':'true'}} </p>
+<p>Data Lançamento: {{ livro.dataLancamento | date:'dd-MMM-yyyy' }} </p>
+<p>URL: {{ livro.url }} </p>
+<br>
+<p>Livro: {{ livro | json}} </p>
